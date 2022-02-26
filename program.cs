@@ -40,8 +40,21 @@ namespace ConsoleApplication1
             Console.WriteLine(velocidadeF1);
             Console.WriteLine(pibAmericano);
             Console.WriteLine(teveAulaSabado);
-
+            
+            
+            //testando variavel
             Console.WriteLine(exemplo is string);
+            dynamic corFavorita2:"Vermelho";
+            
+            console.WriteLine(corFavorita2);
+            // utilizando o dynamic é possivel alterar o conteudo da variavel
+            // com valores de outros tipos
+            
+            corFavorita = 12;
+            
+            Console.WriteLine(corFavorita2);
+            
+            
 
         }
     }
